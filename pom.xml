@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.github.jotabrc</groupId>
 	<artifactId>ov-auth</artifactId>
-	<version>3.4.0</version>
+	<version>4.0.0</version>
 	<name>ov-auth</name>
 	<description>Token auth</description>
 	<url>https://github.com/jotabrc/ov-auth</url>
@@ -41,12 +41,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		<!-- JWT -->
-<!--		<dependency>-->
-<!--			<groupId>io.jsonwebtoken</groupId>-->
-<!--			<artifactId>jjwt</artifactId>-->
-<!--			<version>0.12.3</version>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-api</artifactId>
@@ -63,10 +57,6 @@
 			<artifactId>jjwt-jackson</artifactId>
 			<version>0.12.6</version>
 			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
